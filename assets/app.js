@@ -20,7 +20,6 @@ function calculoIMC(){
     }
     else{
         imc = parseFloat(peso.value) / (parseFloat(altura.value) * parseFloat(altura.value)) 
-        resultado.innerText = `Olá ${nome.value}, seu peso é ${peso.value}kg, com ${altura.value} de altura! Seu imc é ${imc.toFixed(2)}. ${resultLista.value}`
         if (imc<= 17 ){
             resultLista =listaReferencia["<17"]
             console.log(listaReferencia["<17"])
@@ -50,14 +49,14 @@ function calculoIMC(){
         }
         
     }
+    resultado.innerText = `Olá ${nome.value}, seu peso é ${peso.value}kg, com ${altura.value} de altura! Seu imc é ${imc.toFixed(2)}. ${resultLista}`
     console.log(resultado)
     return resultado
 }
 btnCalcular.addEventListener('click', calculoIMC)
 
-
-
-
+let poost = Object.entries(listaReferencia)
+console.log(poost[2])
 
 
 
