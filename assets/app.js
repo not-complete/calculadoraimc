@@ -6,7 +6,7 @@ let resultLista = document.getElementById('resultado')
 let resultado = document.getElementById('resultado')
 const btnCalcular = document.getElementById('calcular')
 const listaReferencia = {
-    '<17':'Muito abaixo do peso',
+    '<17':'Muito abaixo do peso!',
     '17 & 18,49':	'Você está abaixo do peso',
     '18,5 & 24,99':	'Você está com o peso normal',
     '25 & 29,99':	'Você está acima do peso',
