@@ -55,9 +55,9 @@ function calculoIMC(){
 }
 btnCalcular.addEventListener('click', calculoIMC)
 
-let poost = Object.entries(listaReferencia)
-console.log(poost[2])
-
+// let poost = Object.entries(listaReferencia)
+// console.log(poost[2])
+// Método de quebrar objeto em Array, e poder acessar o indice
 
 
 // let altura = document.getElementById('altura')
